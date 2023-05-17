@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.jasiri.erp.features.auth.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mobile_navigation"
+            app:destination="@id/mobile_navigation"
+            app:popUpTo="@id/mobile_navigation"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgetPasswordDialog"
+            app:destination="@id/forgetPasswordDialog" />
+    </fragment>
+    <include app:graph="@navigation/mobile_navigation" />
+    <dialog
+        android:id="@+id/forgetPasswordDialog"
+        android:name="com.jasiri.erp.features.auth.forgot_password.ForgetPasswordDialog"
+        android:label="ForgetPasswordDialog" >
+        <action
+            android:id="@+id/action_forgetPasswordDialog_to_resetPassword"
+            app:destination="@id/resetPassword"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <dialog
+        android:id="@+id/resetPassword"
+        android:name="com.jasiri.erp.features.auth.reset_password.ResetPassword"
+        android:label="ResetPassword" >
+
+    </dialog>
+</navigation>

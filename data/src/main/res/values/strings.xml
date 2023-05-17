@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">data</string>
+    <string name="network_error_message">Check your internet connection</string>
+    <string name="unknown_error_message">An unknown error occured</string>
+</resources>

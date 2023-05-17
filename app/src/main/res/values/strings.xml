@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">jasiri</string>
+    <string name="login">login</string>
+    <string name="_24_7_support">24/7 support</string>
+    <string name="capturing_all_critical_processes_for_you">Capturing all critical processes for you</string>
+    <string name="easy_scheduling_and_time_tabling">Easy scheduling and time tabling</string>
+    <string name="get_started">Get Started</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Events</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="required">Required</string>
+    <string name="error">Error</string>
+    <string name="ok_message">Ok</string>
+    <string name="cancel">Cancel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drag">drag</string>
+    <string name="request_reset_link">Request Reset Link</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_code">Reset Code</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>
